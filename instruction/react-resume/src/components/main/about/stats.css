@@ -1,0 +1,25 @@
+.about .stats {
+	margin-top: 50px;
+}
+
+.about .stats ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 30px;
+	text-align: center;
+}
+
+.about .stats ul li {
+	flex: 150px 1 0;
+	border-right: 1px dotted var(--color3);
+}
+
+.about .stats ul li:last-child {
+	border-right: none;
+}
+
+.about .stats h3 {
+	font-size: 2rem;
+	opacity: 0.5;
+}

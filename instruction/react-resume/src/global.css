@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/*
+    2. Remove default margin
+  */
+* {
+	margin: 0;
+}
+/*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+    font-family: 'Noto Sans', sans-serif;
+}
+/*
+    5. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+/*
+    6. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+/*
+    7. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+/*
+    8. Create a root stacking context
+  */
+#root,
+#__next {
+	isolation: isolate;
+}
+
+
+
+/* COMMON */
+
+:root {
+  --color1: #212529;
+  --color2: #e6e6e6;
+  --color3: #343a40;
+  --color4: #02b75a;
+  --color5: #4f4f50;
+  --color6: #0f0f0f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color1);
+  color: var(--color2);
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color2)
+}
+
+a:hover{
+  color: var(--color4);
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  padding: 70px 20px;
+}
+
+@media(min-width: 500px){
+  .container{
+    padding: 70px 60px;
+  }
+}
+
+@media(min-width: 800px){
+  .container{
+    padding: 70px 100px;
+  }
+}
+
+@media(min-width: 1000px){
+  .container{
+    padding: 70px 150px;
+  }
+}
+
+
+.text-green{
+  color: var(--color4);
+}
+
+.btn{
+    background: none;
+    border: 1px solid var(--color5);
+    color: var(--color5);
+    padding: 5px 40px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.btn:hover{
+  border: 1px solid var(--color2);
+  color: var(--color2);
+}
+
+.btn.btn-outline-green{
+  border-color: var(--color4);
+  color: var(--color4)
+}
+
+.btn.btn-outline-green:hover{
+  background-color: var(--color4);
+  color: var(--color2)
+}
+
+.btn.btn-bg-green{
+  background-color: var(--color4);
+  border-color: var(--color4);
+  color: var(--color2)
+}
+
+.btn.btn-bg-green:hover{
+  background: none;
+  border-color: var(--color4);
+  color: var(--color4)
+}
+
+
+
+.section-content .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.section-content .row .left,
+.section-content .row .right{
+  flex: 300px 1 1;
+}
+
+
+.form-control{
+  display: block;
+  width:100%;
+  border:none;
+  background-color: var(--color6);
+  color: var(--color2);
+  padding: 7px 10px;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.form-control:focus{
+  outline: 1px solid var(--color5);
+
+}
+
+
+.what-to-do,
+.portfolio,
+.contact {
+  background-color: var(--color3);
+}

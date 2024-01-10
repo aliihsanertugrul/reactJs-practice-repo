@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.profile-card {
+	font-family: "Noto Sans", sans-serif;
+	border: 1px solid gray;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+
+	.header {
+		position: relative;
+        
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+		}
+
+		&::after {
+			content: "";
+			background-color: rgba(255, 0, 0, 0.5);
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+		}
+	}
+
+	.content {
+		text-align: center;
+		color: rgb(48, 48, 48);
+        padding: 50px;
+        padding-top: 0;
+
+		.avatar {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border: 10px solid rgba(255, 255, 255, 0.305);
+			transform: translateY(-50%);
+			margin-bottom: -100px;
+			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			-o-border-radius: 50%;
+			-webkit-transform: translateY(-50%);
+			-moz-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			-o-transform: translateY(-50%);
+		}
+
+        h2{
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom:0;
+        }
+
+        h4{
+            font-size:1.3rem;
+            color: gray;
+            font-weight: 500;
+        }
+
+        .stats{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            display: flex;
+            justify-content: space-evenly;
+
+            h3{
+                font-size: 3rem;
+                font-weight: 500;
+                margin:0;
+            }
+
+            p{
+                margin:0;
+                color:gray;
+            }
+        }
+	}
+}

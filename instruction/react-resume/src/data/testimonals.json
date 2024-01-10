@@ -1,0 +1,18 @@
+[
+	{
+		"id": 1,
+		"image": "john-doe.png",
+		"name": "Denis Jacques",
+		"location": "USA",
+		"rate": 5,
+		"message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores sequi, ea praesentium aperiam, modi quo ullam illo porro cumque sint reprehenderit distinctio enim eligendi maxime quibusdam aspernatur, quidem ab."
+	},
+	{
+		"id": 2,
+		"image": "john-doe.png",
+		"name": "Denis Jacques",
+		"location": "USA",
+		"rate": 3,
+		"message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores sequi, ea praesentium aperiam, modi quo ullam illo porro cumque sint reprehenderit distinctio enim eligendi maxime quibusdam aspernatur, quidem ab."
+	}
+]

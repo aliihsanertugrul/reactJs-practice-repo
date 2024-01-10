@@ -1,0 +1,13 @@
+[
+	{ "id": 1, "image": "landscape-01.jpg", "category": ["design", "photos"] },
+	{ "id": 2, "image": "landscape-02.jpg", "category": ["design"] },
+	{ "id": 3, "image": "landscape-03.jpg", "category": ["brand", "photos"] },
+	{
+		"id": 4,
+		"image": "landscape-04.jpg",
+		"category": ["brand", "design", "photos"]
+	},
+	{ "id": 5, "image": "landscape-05.jpg", "category": ["design", "photos"] },
+	{ "id": 6, "image": "landscape-06.jpg", "category": ["brand", "design"] },
+	{ "id": 7, "image": "landscape-07.jpg", "category": ["photos"] }
+]

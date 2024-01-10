@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "digital" ;
+    src: url("./ds-digi.ttf");
+}
+
+
+.clock-container{
+    font-family: digital;
+    background-color: rgb(34, 34, 34);
+    color:greenyellow;
+    padding: 15px 25px;
+    display:inline-flex;
+    align-items: center;
+    gap:15px;
+    font-size: 2.5rem;
+
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+
+    .time{
+        font-size: 5rem;
+        flex:1 0 155px;
+    }
+
+    .date{
+        line-height: 2rem;
+    }
+
+    .day{
+        font-size: 1.7rem;
+        line-height: 1.5rem;
+    }
+}

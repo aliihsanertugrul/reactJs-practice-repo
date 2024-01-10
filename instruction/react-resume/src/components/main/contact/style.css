@@ -1,0 +1,33 @@
+.contact .section-content h4 {
+	margin-bottom: 20px;
+}
+
+.contact .section-content ol,
+.contact .section-content ul {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	line-height: 30px;
+}
+
+.contact .section-content ul li a{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.contact .social ul {
+	display: flex;
+	gap: 15px;
+}
+
+.contact .section-content ul a svg {
+	color: var(--color4);
+}
+
+.contact form {
+	text-align: center;
+}
+
+.contact form button {
+	margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+.client .testimonals {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.client .testimonals .testimonal {
+	flex: 250px 1 1;
+	background-color: var(--color6);
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.client .testimonals .title {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.client .testimonals .title img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+
+.client .testimonals .title p {
+	color: var(--color5);
+	font-size: 0.9rem;
+}

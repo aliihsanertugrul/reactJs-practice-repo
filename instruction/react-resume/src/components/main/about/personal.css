@@ -1,0 +1,9 @@
+.about .right ul li {
+	line-height: 40px;
+	border-bottom: 1px solid var(--color5);
+}
+
+.about .right ul li:last-child {
+	border: none;
+	margin-bottom: 20px;
+}

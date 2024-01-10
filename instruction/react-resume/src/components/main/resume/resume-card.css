@@ -1,0 +1,32 @@
+.resume .resume-card{
+    background-color: var(--color6);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .resume .resume-card span{
+    display: inline-block;
+    font-size: 0.8rem;
+    background-color: #02b75a;
+    padding: 0 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .resume .resume-card h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .resume .resume-card p{
+    margin-top:10px;
+  }
+  

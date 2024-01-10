@@ -1,0 +1,24 @@
+.resume .skill {
+	margin-bottom: 15px;
+}
+
+.resume .skill h6 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+.resume .skill .progress {
+	background-color: var(--color6);
+	height: 5px;
+	border-radius: 5px;
+}
+
+.resume .skill .progress span {
+	display: block;
+	height: 5px;
+	width: 0;
+	background-color: var(--color4);
+	border-radius: 5px;
+}

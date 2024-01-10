@@ -1,0 +1,13 @@
+
+
+.style3 h1{
+    color: greenyellow;
+    text-shadow: 2px 2px 3px green;
+    font-size: 2.4rem;
+}
+
+.style3 p{
+    text-align: justify;
+    line-height: 1.3rem;
+    margin:0 1rem;
+}

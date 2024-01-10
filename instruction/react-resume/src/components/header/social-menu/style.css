@@ -1,0 +1,20 @@
+header .social {
+	display: none;
+}
+
+@media (min-width: 400px) {
+	header .social {
+		display: block;
+	}
+}
+
+@media (min-width: 1000px) {
+	header .social {
+		order: 1;
+	}
+}
+
+header .social ul {
+	display: flex;
+	gap: 10px;
+}

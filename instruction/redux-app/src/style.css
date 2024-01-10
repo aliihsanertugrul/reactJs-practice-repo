@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.app{
+    height: 100vh;
+    
+}
+
+.app.dark{
+    background-color: black;
+    color: white;
+}
