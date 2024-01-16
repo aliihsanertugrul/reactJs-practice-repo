@@ -27,22 +27,30 @@ const MainMovies = () => {
     }, [url_set])
 
 
-    const getMovieTypes = (movieType) => {
+    const getMovieTypes = (movieType) => { 
+
         if(movieType==="Popular"){
             url=BASE_URL+"/discover/movie?sort_by=popularity.desc"+API_KEY
+    
         }else if(movieType==="Theatre"){
             url=BASE_URL+"/discover/movie?primary_release_date.gte=2023-09-15&primary_release_date.lte=2023-10-22"+API_KEY;
+    
         }else if(movieType==="Kids"){
             url=BASE_URL+"/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc"+API_KEY;
+    
         }
         else if(movieType==="Drama"){
             url=BASE_URL+"/discover/movie?with_genres=18&primary_release_year=2023"+API_KEY;
+    
         }else if(movieType==="Comedie"){
             url=BASE_URL+"/discover/movie?with_genres=35&with_cast=23659&sort_by=revenue.desc"+API_KEY;
-        }else{
-            setUrl(url)
+    
         }
-    }
+           setUrl(url);
+        
+        
+    
+       }
 
     const filteredMovies=!search ? movieData : movieData.filter((movie)=>movie.title.toLowerCase().includes(search.toLowerCase()))
     // console.log(filteredMovies)
