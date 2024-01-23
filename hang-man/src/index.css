@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.drawing{
+  position: relative;
+  border: 1px solid black;
+  width: 350px !important;
+  height: 500px;
+}
+
+.footer{
+  position: absolute;
+  height: 5px;
+  width: 175px;
+  background-color: black;
+  bottom: 50px;
+}
+.direct{
+  position: absolute;
+  height: 350px;
+  width: 5px;
+  background-color: black;
+  bottom: 50px;
+  left: 100px;
+}
+.top {
+  position: absolute;
+  height: 5px;
+  width: 175px;
+  background-color: black;
+  top: 95px;
+  left:100px
+}
+.endirect{
+  position: absolute;
+  height: 50px;
+  width: 5px;
+  background-color: black;
+  top: 95px;
+  left: 270px;
+}
+.head{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left:250px;
+  top: 140px;
+  border: 5px solid black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.body{
+  position: absolute;
+  height: 100px;
+  width: 5px;
+  background-color: black;
+  top: 185px;
+  left: 270px;
+}
+.left{
+  position: absolute;
+  height: 5px;
+  width: 50px;
+  background-color: black;
+  bottom: 290px;
+  left: 225px;
+  transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+}
+.right{
+  position: absolute;
+  height: 5px;
+  width: 50px;
+  background-color: black;
+  bottom: 290px;
+  left: 270px;
+  transform: rotate(160deg);
+  -webkit-transform: rotate(160deg);
+  -moz-transform: rotate(160deg);
+  -ms-transform: rotate(160deg);
+  -o-transform: rotate(160deg);
+}
+.foot{
+  position: absolute;
+  height: 5px;
+  width: 50px;
+  background-color: black;
+  bottom: 195px;
+  left: 265px;
+  transform: rotate(220deg);
+  -webkit-transform: rotate(220deg);
+  -moz-transform: rotate(220deg);
+  -ms-transform: rotate(220deg);
+  -o-transform: rotate(220deg);
+}
+
+.keyboard{
+  border:1px solid black!important;
+  width: 40px;
+  text-align: center;
+  font-size: 1.2rem!important;
+  font-weight: 700!important;
+  margin:5px;
+  background-color: #fff!important;
+  color: black!important;
+}
+.keyboard:hover{
+  background-color:gray!important ;
+  cursor: pointer!important;
+}
+
+.harf{
+  border-bottom: 5px solid black;
+  margin: 10px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  width: 25px;
+  text-align: center;
+  position: relative;
+}
+.harf span{
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+}
